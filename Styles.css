@@ -21,11 +21,7 @@ body {
     .logoFinal-padre {
         display: none;
     }
-    .nav-titulo {
-        display: flex;
 
-        width: 100px;
-    }
     p {
         font-size: 10px;
     }
@@ -344,7 +340,66 @@ h1 {
 
                                                 /* DISEÑO PAGINA EJERCICIOPEDIA */
  
-  
+
+.ejercicio {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows:  125px 125px 125px;
+    grid-template-areas: 
+    'video1 video2 video3 video4'
+    'video5 video6 video7 video8'
+    'video9 video10 video11 video12';
+    
+}  
+
+.contenedor-ejercicio1 {
+    grid-area: video1;
+}
+
+.contenedor-video5 {
+    grid-area: video5;
+}
+
+.contenedor-video9 {
+    grid-area: video9;
+}
+
+.contenedor-video2 {
+    grid-area: video2;
+}
+
+.contenedor-video6 {
+    grid-area: video6;
+}
+
+.contenedor-video10 {
+    grid-area: video10;
+}
+
+.contenedor-video3 {
+    grid-area: video3;
+}
+
+.contenedor-video7 {
+    grid-area: video7;
+}
+
+.contenedor-video11 {
+    grid-area: video11;
+}
+
+.contenedor-video4 {
+    grid-area: video4;
+}
+
+.contenedor-video8 {
+    grid-area: video8;
+}
+
+.contenedor-video12 {
+    grid-area: video12;
+}
+
 .ejercicio {
     display: flex;
     align-items: center;
