@@ -333,6 +333,17 @@ h1 {
     padding: 10px;
 }
 
+input:hover:focus {
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+input::first-letter {
+}
+
+
+
                                                 /* DISEÑO PAGINA EJERCICIOPEDIA */
  
 
